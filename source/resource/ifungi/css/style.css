@@ -1,0 +1,12 @@
+.void {
+  background-image: url("../blue_mycelium_small.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.top {
+  position: fixed;
+  bottom: 20px;
+  right: 0px;
+  cursor: pointer;
+}

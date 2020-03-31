@@ -1,0 +1,46 @@
+{
+  "info" :
+  {
+    "name" : "I-Fungi",
+
+    "summary" : "An app for fungi determination",
+    "description" : "That's the longer description of the app",
+
+    "homepage" : "https://sourcesup.renater.fr/projects/ifungi/",
+
+    "license" : "CeCILL",
+    "authors" : [
+  {
+    "name": "Sylvain Gaillard",
+    "email": "sylvain.gaillard@inra.fr"
+  },
+  {
+    "name": "Alfred Goumou",
+    "email": "alfredgoumou@gmail.com"
+  }
+],
+
+    "version" : "0.1.0-alpha"
+  },
+
+  "provides" :
+  {
+    "namespace"   : "ifungi",
+    "encoding"    : "utf-8",
+    "class"       : "source/class",
+    "resource"    : "source/resource",
+    "translation" : "source/translation"
+  },
+  "externalResources": {
+        "script": [
+         ],
+        "css": [
+          "ifungi/css/custom.css"
+        ]
+  },
+
+  "requires": {
+     "@qooxdoo/compiler": "^1.0.0-beta",
+     "@qooxdoo/framework": "^6.0.0-alpha"
+  }
+}

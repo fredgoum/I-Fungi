@@ -1,0 +1,91 @@
+#: ifungi/page/Menu.js
+msgid "Menu"
+msgstr "Menu"
+
+#: ifungi/page/Critere.js
+msgid "Criteria"
+msgstr "Critères"
+
+#: ifungi/page/Result.js
+msgid "Result"
+msgstr "Resultat"
+
+#: ifungi/Application.js
+msgid "Please select criteria to see results !!"
+msgstr "Selectionner des critères pour afficher des resultats"
+
+#: ifungi/page/Menu.js
+msgid "BLAST"
+msgstr "BLAST"
+
+#: ifungi/page/Result.js
+msgid "sort by GENUS or <br>SPECIES"
+msgstr "Trié par GENES ou <br>ESPECES"
+
+#: ifungi/page/Result.js
+msgid "There is no species"
+msgstr "Il n'y a pas d'espèces correspondant"
+
+#: ifungi/page/HelpCriteria.js
+msgid "Help Criteria"
+msgstr "Aide Criteres"
+
+#: ifungi/page/Overview.js
+msgid "Overview"
+msgstr "Vue d'ensemble"
+
+#: ifungi/page/DescriptionSpecie.js
+msgid "Description of specie"
+msgstr "Desciption de l'espèce"
+
+#: ifungi/page/Menu.js
+msgid "MORPHOLOGICAL <br> IDENTIFICATION"
+msgstr "IDENTIFICATION <br> MORPHOLOGIQUE"
+
+#: ifungi/page/Menu.js
+msgid "EDUCATIVE <br> RESSOURCES"
+msgstr "RESSOURCES <br> EDUCATIVES"
+
+#: ifungi/page/Menu.js
+msgid "SEARCH <br> FUNGAL SPECIES"
+msgstr "RECHERCHE <br> ESPECES FONGIQUES"
+
+#: ifungi/page/Menu.js
+msgid "MOLECULAR <br> IDENTIFICATION"
+msgstr "IDENTIFICATION MOLECULAIRE"
+
+#: ifungi/page/Menu.js
+msgid "Phylogeny"
+msgstr "Phylogenie"
+
+#: ifungi/page/Menu.js
+msgid "DIVERSITY"
+msgstr "DIVERSITE"
+
+#: ifungi/page/Menu.js
+msgid "List of species"
+msgstr "Liste des espèces"
+
+#: ifungi/page/Menu.js
+msgid "Libraries of sequences"
+msgstr "Bibliothèque de sequences"
+
+#: ifungi/page/Menu.js
+msgid "About us"
+msgstr "A propos de nous"
+
+#: ifungi/page/Result.js
+msgid " HITS"
+msgstr ""
+
+#: ifungi/page/HelpCriteria.js
+msgid "Back"
+msgstr "Retour"
+
+#: ifungi/Application.js
+msgid "Hide"
+msgstr "Cacher"
+
+#: ifungi/page/DescriptionSpecie.js
+msgid "Sorry my description is not ready yet"
+msgstr "Ma description n'est pas prête"

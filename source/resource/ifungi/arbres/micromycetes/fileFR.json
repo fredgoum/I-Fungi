@@ -1,0 +1,432 @@
+{
+  "root": {
+    "langue": "Organisme",
+    "parent": null,
+    "enfants": [ "Filament", "Levure" ]
+  },
+  "Filament": {
+    "langue": "Filament",
+    "parent": "root",
+    "enfants": [ "macroscopique", "microscopique" ]
+  },
+  "Levure": {
+    "langue": "Levure",
+    "parent": "root",
+    "enfants": [ "Couleurdelacolonie", "Formedesblastospores" ]
+  },
+  "macroscopique": {
+    "langue": "Macroscopique",
+    "parent": "Filament",
+    "enfants": [ "Couleurdumycelium", "Pigmentationdumilieu", "Contourdelacolonie", "Densitedumycelium", "Myceliumaerien", "Structuresparticulieres", "Exudats" ]
+  },
+  "microscopique": {
+    "langue": "Microscopique",
+    "parent": "Filament",
+    "enfants": [ "Meiospores", "Septa", "Mitospores" ]
+  },
+  "Couleurdelacolonie": {
+    "langue": "Couleur de la colonie",
+    "parent": "Levure",
+    "enfants": [ "brunnoircolonie", "blancgriscolonie", "rosecolonie", "beigejaunecolonie", "orangecolonie", "autrecolonie" ]
+  },
+  "Formedesblastospores": {
+    "langue": "Forme des blastospores",
+    "parent": "Levure",
+    "enfants": [ "circulaireblastospores", "ovoideblastospores", "allongee" ]
+  },
+  "Couleurdumycelium": {
+    "langue": "Couleur du mycelium",
+    "parent": "macroscopique",
+    "enfants": [ "brunnoirmycelium", "blancrosemycelium", "blancjaunemycelium", "blancgrismycelium", "rosemycelium", "bleu", "vert", "orangemycelium", "autremycelium" ]
+  },
+  "Pigmentationdumilieu": {
+    "langue": "Pigmentation du milieu",
+    "parent": "macroscopique",
+    "enfants": [ "ouipigmentation", "nonpigmentation" ]
+  },
+  "Contourdelacolonie": {
+    "langue": "Contour de la colonie",
+    "parent": "macroscopique",
+    "enfants": [ "regulier", "irregulier" ]
+  },
+  "Densitedumycelium": {
+    "langue": "Densite du mycelium",
+    "parent": "macroscopique",
+    "enfants": [ "diffus", "dense" ]
+  },
+  "Myceliumaerien": {
+    "langue": "Mycelium aerien",
+    "parent": "macroscopique",
+    "enfants": [ "ouiMyceliumaerien", "nonMyceliumaerien" ]
+  },
+  "Structuresparticulieres": {
+    "langue": "Structures particulieres",
+    "parent": "macroscopique",
+    "enfants": [ "Sclerote", "ponctuation", "Rhizoides", "nonstructure" ]
+  },
+  "Exudats": {
+    "langue": "Exudats",
+    "parent": "macroscopique",
+    "enfants": [ "ouiExudats", "nonExudats" ]
+  },
+  "Meiospores": {
+    "langue": "Meiospores",
+    "parent": "microscopique",
+    "enfants": [ "ouimeiospore", "nonmeiospore" ]
+  },
+  "Septa": {
+    "langue": "Septa",
+    "parent": "microscopique",
+    "enfants": [ "ouiSepta", "nonSepta" ]
+  },
+  "Mitospores": {
+    "langue": "Mitospores",
+    "parent": "microscopique",
+    "enfants": [ "ouimitospores", "nonmitospores" ]
+  },
+  "brunnoircolonie": {
+    "langue": "Brun/noir",
+    "parent": "Couleurdelacolonie",
+    "enfants": []
+  },
+  "blancgriscolonie": {
+    "langue": "Blanc/gris",
+    "parent": "Couleurdelacolonie",
+    "enfants": []
+  },
+  "rosecolonie": {
+    "langue": "Rose",
+    "parent": "Couleurdelacolonie",
+    "enfants": []
+  },
+  "beigejaunecolonie": {
+    "langue": "Beige/jaune",
+    "parent": "Couleurdelacolonie",
+    "enfants": []
+  },
+  "orangecolonie": {
+    "langue": "Orange",
+    "parent": "Couleurdelacolonie",
+    "enfants": []
+  },
+  "autrecolonie": {
+    "langue": "Autre",
+    "parent": "Couleurdelacolonie",
+    "enfants": []
+  },
+  "circulaireblastospores": {
+    "langue": "Circulaire",
+    "parent": "Formedesblastospores",
+    "enfants": []
+  },
+  "ovoideblastospores": {
+    "langue": "Ovoide",
+    "parent": "Formedesblastospores",
+    "enfants": []
+  },
+  "allongee": {
+    "langue": "Allongee",
+    "parent": "Formedesblastospores",
+    "enfants": []
+  },
+  "brunnoirmycelium": {
+    "langue": "Brun/noir",
+    "parent": "Couleurdumycelium",
+    "enfants": []
+  },
+  "blancrosemycelium": {
+    "langue": "Blanc/rose",
+    "parent": "Couleurdumycelium",
+    "enfants": []
+  },
+  "blancgrismycelium": {
+    "langue": "Blanc/gris",
+    "parent": "Couleurdumycelium",
+    "enfants": []
+  },
+  "blancjaunemycelium": {
+    "langue": "Blanc/jaune",
+    "parent": "Couleurdumycelium",
+    "enfants": []
+  },
+  "rosemycelium": {
+    "langue": "Rose",
+    "parent": "Couleurdumycelium",
+    "enfants": []
+  },
+  "bleu": {
+    "langue": "Bleu",
+    "parent": "Couleurdumycelium",
+    "enfants": []
+  },
+  "vert": {
+    "langue": "Vert",
+    "parent": "Couleurdumycelium",
+    "enfants": []
+  },
+  "orangemycelium": {
+    "langue": "Orange",
+    "parent": "Couleurdumycelium",
+    "enfants": []
+  },
+  "autremycelium": {
+    "langue": "Autre",
+    "parent": "Couleurdumycelium",
+    "enfants": []
+  },
+  "ouipigmentation": {
+    "langue": "Oui",
+    "parent": "Pigmentationdumilieu",
+    "enfants": []
+  },
+  "nonpigmentation": {
+    "langue": "Non",
+    "parent": "Pigmentationdumilieu",
+    "enfants": []
+  },
+  "regulier": {
+    "langue": "Régulier",
+    "parent": "Contourdelacolonie",
+    "enfants": []
+  },
+  "irregulier": {
+    "langue": "Irrégulier",
+    "parent": "Contourdelacolonie",
+    "enfants": []
+  },
+  "diffus": {
+    "langue": "Diffus",
+    "parent": "Densitedumycelium",
+    "enfants": []
+  },
+  "dense": {
+    "langue": "Dense",
+    "parent": "Densitedumycelium",
+    "enfants": []
+  },
+  "ouiMyceliumaerien": {
+    "langue": "Oui",
+    "parent": "Myceliumaerien",
+    "enfants": []
+  },
+  "nonMyceliumaerien": {
+    "langue": "Non",
+    "parent": "Myceliumaerien",
+    "enfants": []
+  },
+  "Sclerote": {
+    "langue": "Sclerote",
+    "parent": "Structuresparticulieres",
+    "enfants": []
+  },
+  "ponctuation": {
+    "langue": "Ponctuation",
+    "parent": "Structuresparticulieres",
+    "enfants": []
+  },
+  "Rhizoides": {
+    "langue": "Rhizoïdes",
+    "parent": "Structuresparticulieres",
+    "enfants": []
+  },
+  "nonstructure": {
+    "langue": "Non",
+    "parent": "Structuresparticulieres",
+    "enfants": []
+  },
+  "ouiExudats": {
+    "langue": "Oui",
+    "parent": "Exudats",
+    "enfants": []
+  },
+  "nonExudats": {
+    "langue": "Non",
+    "parent": "Exudats",
+    "enfants": []
+  },
+  "ouimeiospore": {
+    "langue": "Oui",
+    "parent": "Meiospores",
+    "enfants": []
+  },
+  "nonmeiospore": {
+    "langue": "Non",
+    "parent": "Meiospores",
+    "enfants": []
+  },
+  "ouiSepta": {
+    "langue": "Oui",
+    "parent": "Septa",
+    "enfants": []
+  },
+  "nonSepta": {
+    "langue": "Non",
+    "parent": "Septa",
+    "enfants": []
+  },
+  "ouimitospores": {
+    "langue": "Oui",
+    "parent": "Mitospores",
+    "enfants": [ "Sporogenese", "Couleurdesmitospores", "Formedesmitospores", "Nombredecellules", "Dispositiondesmitospores", "Regroupementdesmitospores" ]
+  },
+  "nonmitospores": {
+    "langue": "Non",
+    "parent": "Mitospores",
+    "enfants": []
+  },
+  "Sporogenese": {
+    "langue": "Sporogenese",
+    "parent": "ouimitospores",
+    "enfants": [ "Libre", "Pycnide", "Acervule", "sporange" ]
+  },
+  "Couleurdesmitospores": {
+    "langue": "Couleur des mitospores",
+    "parent": "ouimitospores",
+    "enfants": [ "Foncee", "Claire", "autremitospores" ]
+  },
+  "Formedesmitospores": {
+    "langue": "Forme des mitospores",
+    "parent": "ouimitospores",
+    "enfants": [ "circulairemitospores", "ovoidemitospores", "murale", "Phragmospore", "Amerospore", "Dictyospore", "scolecospore", "helicospore", "staurospore" ]
+  },
+  "Nombredecellules": {
+    "langue": "Nombre de cellules",
+    "parent": "ouimitospores",
+    "enfants": [ "1", "2", "37" ]
+  },
+  "Dispositiondesmitospores": {
+    "langue": "Disposition des mitospores",
+    "parent": "ouimitospores",
+    "enfants": [ "Terminale", "intermediaire" ]
+  },
+  "Regroupementdesmitospores": {
+    "langue": "Regroupement des mitospores",
+    "parent": "ouimitospores",
+    "enfants": [ "Groupeeenchainette", "Groupeeenbouquet", "Solitaire", "autreregroupement" ]
+  },
+  "Libre": {
+    "langue": "Libre",
+    "parent": "Sporogenese",
+    "enfants": []
+  },
+  "Pycnide": {
+    "langue": "Pycnide",
+    "parent": "Sporogenese",
+    "enfants": []
+  },
+  "Acervule": {
+    "langue": "Acervule",
+    "parent": "Sporogenese",
+    "enfants": []
+  },
+  "sporange": {
+    "langue": "Sporange",
+    "parent": "Sporogenese",
+    "enfants": []
+  },
+  "Foncee": {
+    "langue": "Foncee",
+    "parent": "Couleurdesmitospores",
+    "enfants": []
+  },
+  "Claire": {
+    "langue": "Claire",
+    "parent": "Couleurdesmitospores",
+    "enfants": []
+  },
+  "autremitospores": {
+    "langue": "Autre",
+    "parent": "Couleurdesmitospores",
+    "enfants": []
+  },
+  "circulairemitospores": {
+    "langue": "Circulaire",
+    "parent": "Formedesmitospores",
+    "enfants": []
+  },
+  "ovoidemitospores": {
+    "langue": "Ovoide",
+    "parent": "Formedesmitospores",
+    "enfants": []
+  },
+  "murale": {
+    "langue": "Murale",
+    "parent": "Formedesmitospores",
+    "enfants": []
+  },
+  "Phragmospore": {
+    "langue": "Phragmospore",
+    "parent": "Formedesmitospores",
+    "enfants": []
+  },
+  "Amerospore": {
+    "langue": "Amerospore",
+    "parent": "Formedesmitospores",
+    "enfants": []
+  },
+  "Dictyospore": {
+    "langue": "Dictyospore",
+    "parent": "Formedesmitospores",
+    "enfants": []
+  },
+  "scolecospore": {
+    "langue": "Scolecospore",
+    "parent": "Formedesmitospores",
+    "enfants": []
+  },
+  "helicospore": {
+    "langue": "Helicospore",
+    "parent": "Formedesmitospores",
+    "enfants": []
+  },
+  "staurospore": {
+    "langue": "Staurospore",
+    "parent": "Formedesmitospores",
+    "enfants": []
+  },
+  "1": {
+    "langue": "1-1",
+    "parent": "Nombredecellules",
+    "enfants": []
+  },
+  "2": {
+    "langue": "2-2",
+    "parent": "Nombredecellules",
+    "enfants": []
+  },
+  "37": {
+    "langue": "3-7",
+    "parent": "Nombredecellules",
+    "enfants": []
+  },
+  "Terminale": {
+    "langue": "Terminale",
+    "parent": "Dispositiondesmitospores",
+    "enfants": []
+  },
+  "intermediaire": {
+    "langue": "Intermediaire",
+    "parent": "Dispositiondesmitospores",
+    "enfants": []
+  },
+  "Groupeeenchainette": {
+    "langue": "Groupee en chainette",
+    "parent": "Regroupementdesmitospores",
+    "enfants": []
+  },
+  "Groupeeenbouquet": {
+    "langue": "Groupee en bouquet",
+    "parent": "Regroupementdesmitospores",
+    "enfants": []
+  },
+  "Solitaire": {
+    "langue": "Solitaire",
+    "parent": "Regroupementdesmitospores",
+    "enfants": []
+  },
+  "autreregroupement": {
+    "langue": "Autre",
+    "parent": "Regroupementdesmitospores",
+    "enfants": []
+  }
+}
